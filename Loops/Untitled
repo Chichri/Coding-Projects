@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(1200, 650);
+  stroke(255);
+  strokeWeight(3);
+  colorMode(HSB);
+}
+
+function draw() {
+  background(0);
+
+  for(var i=0; i<40; i++){
+    ellipse(i*40+15, 100, 30, 30);
+  }
+}
